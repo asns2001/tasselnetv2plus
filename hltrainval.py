@@ -317,6 +317,8 @@ def validate(net, valset, val_loader, criterion, epoch, args):
                     '.jpg', '.png')), bbox_inches='tight', dpi=300)
                 plt.close()
 
+            print('manual count=%4.2f, inferred count=%4.2f' % (gtcount, pdcount))
+
             # compute mae and mse
             pd_counts.append(pdcount)
             gt_counts.append(gtcount)
