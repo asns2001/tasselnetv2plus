@@ -6,7 +6,7 @@
 
 This repository is forked from https://github.com/poppinace/tasselnetv2plus which includes the official implementation of TasselNetv2+ for plant counting, presented in paper:
 
-**TasselNetv2+: A Fast Implementation for High-Throughput Plant Counting from High-Resolution RGB Imagery**
+**Creating a Corn Yield Estimator with TasselNetV2+: A Deep Learning Approach via UAV Imagery**
 
 Frontiers in Plant Science, 2020
 
