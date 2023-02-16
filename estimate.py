@@ -233,8 +233,8 @@ DATA_LIST = './data/maize_tassels_counting_uav_dataset/train.txt'
 DATA_VAL_LIST = './data/maize_tassels_counting_uav_dataset/input.txt'
 
 RESTORE_FROM = 'model_best.pth.tar'
-SNAPSHOT_DIR = './results_from_evaluation'
-RESULT_DIR = './results_from_evaluation'
+SNAPSHOT_DIR = './estimate'
+RESULT_DIR = './estimate'
 
 # model-related parameters
 INPUT_SIZE = 64
